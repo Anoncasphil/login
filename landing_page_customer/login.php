@@ -22,6 +22,16 @@
                 <p class="text-sm mt-4 text-gray-800">Don't have an account <a id="sign-in" href="register.php" class="text-blue-900 font-semibold hover:underline ml-1 whitespace-nowrap">Register here</a></p>
               </div>
 
+              <div id="error-message" class="flex items-center p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 hidden" role="alert">
+                <svg class="shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 1 1 1 1v4h1a1 1 0 1 1 0 2Z"/>
+                </svg>
+                <span class="sr-only">Error</span>
+                <div>
+                    <span class="font-medium">Error: </span> Something went wrong. Please check the form.
+                </div>
+            </div>
+
               <div>
                 <label class="text-gray-800 text-xs block mb-2">Email</label>
                 <div class="relative flex items-center">
@@ -58,7 +68,7 @@
                   </label>
                 </div>
                 <div>
-                  <a href="jajvascript:void(0);" class="text-blue-900 font-semibold text-sm hover:underline">
+                  <a href="forgot_password.php" class="text-blue-900 font-semibold text-sm hover:underline">
                     Forgot Password?
                   </a>
                 </div>
@@ -72,6 +82,8 @@
 
             </form>
           </div>
+          
+          
 
           <div class="w-full h-full flex items-center bg-[#000842] rounded-xl p-8">
             <img src="https://readymadeui.com/signin-image.webp" class="w-full aspect-[12/12] object-contain" alt="login-image" />
@@ -79,6 +91,9 @@
         </div>
       </div>
     </div>
+
+
+<script src="../scripts/login.js"></script>
 
 
 

@@ -1,0 +1,2 @@
+[15-Feb-2025 04:29:09 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\xampp\htdocs\login\db_connection.php on line 9
+[15-Feb-2025 04:29:54 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'localhost' is not allowed to connect to this MariaDB server in C:\xampp\htdocs\login\db_connection.php on line 9
